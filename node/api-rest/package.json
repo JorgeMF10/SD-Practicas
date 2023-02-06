@@ -4,21 +4,21 @@
     "description": "Proyecto de API RESTful con Node.js y Express para SD",
     "main": "index.js",
     "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-    "RESTfull",
-    "node",
-    "express",
-    "mongo"
+        "RESTfull",
+        "node",
+        "express",
+        "mongo"
     ],
     "author": "Jorge Marin",
     "license": "ISC",
     "dependencies": {
-    "express": "^4.18.2"
+        "express": "^4.18.2"
     },
     "devDependencies": {
-    "nodemon": "^2.0.20"
+        "nodemon": "^2.0.20"
     }
-    }
+}
