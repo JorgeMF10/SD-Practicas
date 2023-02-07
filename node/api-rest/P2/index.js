@@ -33,7 +33,7 @@ app.post('/api/product', (req, res) => {
     
     res.status(200); 
     res.send({
-        mensaje: 'Producto Creado', 
+        mensaje: 'El producto ha sido Creado', 
         producto: queProducto
     });
 
@@ -45,7 +45,7 @@ app.put('/api/product/:productID', (req, res) => {
 
     res.status(200);
     res.send({
-        mensaje: `Producto Modificado  ${productID}`, 
+        mensaje: `El producto ha sido Modificado  ${productID}`, 
         producto: queProducto
     });
 
@@ -56,7 +56,7 @@ app.delete('/api/product/:productID', (req, res) => {
     const productID = req.params.productID;
 
     res.status(200); 
-    res.send({ mensaje: `Producto eliminado: ${productID}`});
+    res.send({ mensaje: `El producto ha sido eliminado: ${productID}`});
 
 });
 
